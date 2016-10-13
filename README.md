@@ -20,18 +20,20 @@ sudo chmod 644 /tmp/shill.profile
 ### Step 2
 Run the show script from Crouton, using the `-f` parameter to specify the wifi password file.
 
-<pre>
+
+```diff
 ./show_wifi_passwd.sh -f /tmp/shill.profile 
 === Show the decoded wifi password file
 Name=wind
-<font color="red">windyday</font>
+- windyday
 Name=lilikoi
-<font color="red">ohsosweet</font>
+- ohsosweet
 Name=Room-128
-<font color="red">Guest128</font>
+- Guest128
 === Pau!
 (trusty)cvmiller@localhost:~/Downloads$
-</pre>
+```
+
 
 
 ### Background Info
